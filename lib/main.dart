@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart'; // Importar a HomePage da pasta pages
+import 'package:tekton/pages/basico.dart';
+import 'package:tekton/pages/home_page.dart';
 
 void main() {
   runApp(TektonApp());
@@ -9,11 +10,15 @@ class TektonApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tekton App',
+      title: 'Tektõn App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primaryColor: Colors.deepOrange,
+        scaffoldBackgroundColor: Colors.white, // Cor de fundo padrão
         primarySwatch: Colors.orange,
+        // Outros temas
       ),
-      home: TektonHomePage(), // Define a HomePage como a tela inicial
+      home: TektonHomePage(),
     );
   }
 }

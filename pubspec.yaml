@@ -10,10 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^0.8.5  # Corrigido para a versão estável mais recente
+  image_picker: ^1.1.2  # Corrigido para a versão estável mais recente
   permission_handler: ^11.3.1 
+  flutter_map: ^3.1.0
+  latlong2: ^0.8.1
+
+  
+
 
   cupertino_icons: ^1.0.8
+  badges: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -25,5 +31,14 @@ flutter:
     - assets/images/tekton.jpeg
     - assets/images/logo_appbar.png
     - assets/images/logo_azul.png
+    - assets/images/architecture1.jpg
+    - assets/images/architecture2.jpg
+    - assets/images/architecture3.jpg
+    - assets/images/Campos.jpg
+    - assets/images/area.jpg
+    - assets/images/Chacara1.jpg
+    - assets/images/sonho.jpg
+    - assets/images/studio.jpg
+    - assets/images/sus.jpg
 
   uses-material-design: true
